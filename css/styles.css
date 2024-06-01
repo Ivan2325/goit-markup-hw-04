@@ -54,6 +54,8 @@ display: block;
 		letter-spacing: 0.03em;
 		text-transform: uppercase;
 			margin-right: 76px;
+			position: relative;
+			color: #404bbf;
 }
 
 
@@ -87,6 +89,20 @@ display: block;
 		color: #2E2F42;
 		padding: 24px 0;
 		display: block;
+		transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
+}
+
+
+.header-list-link {
+	content: '';
+	width: 100%;
+	position: absolute; 
+	left: 0;
+	bottom: -1px;
+	height: 4px;
+	background-color: #404bbf; 
+	border-radius: 2px;
+
 }
 
 .header-list-link:hover,
@@ -118,6 +134,7 @@ color: #404bbf;
 		line-height: 1.5;
 		letter-spacing: 0.02em;
 		color: #434455;
+		transition:  color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-address-link:hover,
@@ -131,7 +148,7 @@ color: #404bbf;
 	background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: cover;
+	max-width: 1440px;
 }
 
 .hero-title {
@@ -162,6 +179,7 @@ color: #404bbf;
 		min-width: 169px;
 		height: 56px;
 		margin: 0 auto;
+		background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 
@@ -232,6 +250,7 @@ margin-bottom: 8px;
 	background-color: #FFFFFF;
 	width: calc((100% - 72px) / 4);
 	border-radius: 0 0 4px 4px;
+	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .team-member-container {
@@ -256,6 +275,16 @@ margin-bottom: 8px;
 		border-radius: 50%;
 		background-color: #4d5ae5;
 		fill: #f4f4fd;
+		transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.team-member-social:hover {
+	background-color: #404bbf;
+}
+
+
+.team-member-social:focus {
+	background-color: #404bbf; 
 }
 
 .team-title {
