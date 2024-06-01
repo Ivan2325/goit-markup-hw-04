@@ -150,7 +150,8 @@ color: #404bbf;
 	background-position: center;
 	max-width: 1440px;
 	background-size: cover;
-	background-image:  linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),url(../images/people-office\ 1.jpg);
+	margin: 0 auto;
+	background-image:  linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),url(../images/people-office1.jpg);
 }
 
 .hero-title {
@@ -459,6 +460,9 @@ line-height: 24px;
 					border-radius: 50%;
 						background-color: #4d5ae5;
 						fill: #f4f4fd;
+						display: flex;
+						align-items: center;
+						justify-content: center;
 				}
 
 		.footer-social-svg {
