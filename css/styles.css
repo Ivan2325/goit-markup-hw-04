@@ -94,8 +94,8 @@ display: block;
 }
 
 
-.header-list-link::after {
-	content: '';
+.header-underline::after {
+	content: "";
 	width: 100%;
 	position: absolute; 
 	left: 0;
